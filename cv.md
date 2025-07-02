@@ -1,7 +1,3 @@
-## [rsschool-cv](https://pages.github.com/).
-
----
-
 # Pogos Torosian
 
 ![Моя фотография](cv_photo.jpg)
@@ -51,7 +47,7 @@ Novosibirsk D.I Mendeleev Secondary Vocational Chemical-Technological College.
 * The Odin Project
 
 ## Languges
-English - Intermediate/Upper-intermediate
-Russian - Native
-Armenian - Intermediate
-Slovakian - Basic
+English - Intermediate/Upper-intermediate  
+Russian - Native  
+Armenian - Intermediate  
+Slovakian - Basic  
