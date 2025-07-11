@@ -32,10 +32,15 @@ img {
     max-inline-size: 100%;
 }
 
+button {
+    border: none;
+}
+
 
 html {
     font-family: "Merriweather", serif;
     scroll-behavior: smooth;
+    line-height: 150%;
 }
 
 h1,
@@ -46,6 +51,7 @@ h5 {
     font-family: "Alegreya Sans", sans-serif;
     font-weight: bold;
     font-style: normal;
+    line-height: 110%;
 }
 
 body {

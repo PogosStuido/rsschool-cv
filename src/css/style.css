@@ -1,2 +1,4 @@
 @import url(/rsschool-cv/src/css/libs/modern-normalize.min.css);
 @import url(/rsschool-cv/src/css/base/basic.css);
+
+@import url(/rsschool-cv/src/css/blocks/header.css);
