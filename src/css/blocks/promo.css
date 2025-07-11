@@ -67,8 +67,18 @@ hr {
     box-shadow: 0px 4px 4px 0px #00000040;
 
     color: var(--text-color);
+    font-family: Alegreya sans, sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
+
+
+}
+
+.promo__email {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: left;
+    align-items: center;
 
 }
 
@@ -78,10 +88,16 @@ hr {
 
 }
 
+.promo__email {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: left;
+    align-items: center;
+
+}
+
 .promo__email::before {
     content: url(/rsschool-cv/src/icons/email_red.svg);
-    margin-right: 0.5rem;
-
 }
 
 
