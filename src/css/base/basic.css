@@ -8,7 +8,8 @@ h5,
 figure,
 p,
 ol,
-ul {
+ul,
+hr {
     margin: 0;
 }
 
@@ -40,6 +41,8 @@ button {
 html {
     font-family: "Merriweather", serif;
     scroll-behavior: smooth;
+    font-style: normal;
+    font-weight: 400;
     line-height: 150%;
 }
 
@@ -49,9 +52,17 @@ h3,
 h4,
 h5 {
     font-family: "Alegreya Sans", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+    font-weight: 700;
     line-height: 110%;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 body {

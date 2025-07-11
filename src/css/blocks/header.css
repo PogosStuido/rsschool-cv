@@ -48,11 +48,6 @@
             line-height: 150%;
             /* 1.875rem */
             letter-spacing: 0.0625rem;
-
-            a {
-                text-decoration: none;
-                color: var(--text-color);
-            }
         }
     }
 
