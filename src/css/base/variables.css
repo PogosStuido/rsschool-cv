@@ -1,0 +1,6 @@
+:root {
+    --main-gradient: linear-gradient(90deg, #E64A3D 0%, #EB1400 100%);
+    --text-color: #412D2B;
+    --text-color-opacity: #412d2bd9;
+    --second-color-white: #FFFFFF;
+}
