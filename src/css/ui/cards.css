@@ -53,15 +53,16 @@
     font-style: normal;
 }
 
-li {
-    margin-top: 0.625rem;
-}
-
 li::marker {
     color: #EB1400;
     font-size: 1.25rem;
 }
 
+.card__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
 
 .card__info-wrapper {
     display: flex;
