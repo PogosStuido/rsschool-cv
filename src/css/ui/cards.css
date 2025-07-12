@@ -92,3 +92,10 @@ li::marker {
     background: var(--main-gradient);
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+@media screen and (min-width: 768px) {
+    .small-card {
+        width: 6.45831rem;
+        height: 6.45831rem;
+    }
+}
