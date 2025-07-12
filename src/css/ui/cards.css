@@ -79,6 +79,8 @@ li::marker {
     color: var(--text-color);
     font-size: 1.25rem;
     font-style: normal;
+    line-height: 32px;
+    letter-spacing: 5%;
 }
 
 .small-card {
@@ -97,5 +99,17 @@ li::marker {
     .small-card {
         width: 6.45831rem;
         height: 6.45831rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card__wrapper {
+        max-width: 28.9375rem;
+    }
+
+    .card__title-wrapper_right {
+        display: flex;
+        align-items: flex-end;
+        gap: 0.75rem;
     }
 }
