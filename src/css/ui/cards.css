@@ -80,3 +80,15 @@ li::marker {
     font-size: 1.25rem;
     font-style: normal;
 }
+
+.small-card {
+    display: flex;
+    width: 4.60938rem;
+    height: 4.60938rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25rem;
+    background: var(--main-gradient);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

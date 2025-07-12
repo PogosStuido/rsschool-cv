@@ -1,0 +1,17 @@
+.contacts {
+    padding-top: 3.75rem;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contacts__social-wrapper {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+
+}
