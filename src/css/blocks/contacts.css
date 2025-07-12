@@ -21,3 +21,22 @@
         gap: 1.25rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .contacts__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 13.44rem;
+
+    }
+
+    .contacts__social-wrapper {
+        gap: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .contacts_wrapper {
+        gap: 15.12rem;
+    }
+}
