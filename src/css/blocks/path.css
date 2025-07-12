@@ -1,0 +1,11 @@
+@import url(/rsschool-cv/src/css/base/variables.css);
+
+.path {
+    padding-top: 60px;
+}
+
+.path__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
