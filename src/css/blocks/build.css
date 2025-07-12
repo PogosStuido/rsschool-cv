@@ -1,0 +1,9 @@
+.build {
+    margin-top: 3.75rem;
+}
+
+.build__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
