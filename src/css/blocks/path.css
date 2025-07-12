@@ -14,5 +14,12 @@
     .path__wrapper {
         flex-direction: row;
         justify-content: space-between;
+        gap: 13.44rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .path__wrapper {
+        gap: 15.12rem;
     }
 }

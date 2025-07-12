@@ -7,3 +7,17 @@
     flex-direction: column;
     gap: 3rem;
 }
+
+@media screen and (min-width: 1440px) {
+    .build__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 13.44rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .build__wrapper {
+        gap: 15.12rem;
+    }
+}

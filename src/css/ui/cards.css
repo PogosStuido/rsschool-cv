@@ -104,12 +104,23 @@ li::marker {
 
 @media screen and (min-width: 1440px) {
     .card__wrapper {
-        max-width: 28.9375rem;
+        min-width: 28.9375rem;
+    }
+
+    .card__info {
+        min-height: 150px;
     }
 
     .card__title-wrapper_right {
         display: flex;
         align-items: flex-end;
         gap: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .card__wrapper {
+        min-width: 32.4375rem;
+
     }
 }
