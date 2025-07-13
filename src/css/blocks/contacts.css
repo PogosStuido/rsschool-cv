@@ -31,12 +31,16 @@
     }
 
     .contacts__social-wrapper {
-        gap: 0.7rem;
+        gap: 1rem;
     }
 }
 
 @media screen and (min-width: 1920px) {
     .contacts_wrapper {
         gap: 15.12rem;
+    }
+
+    .contacts__social-wrapper {
+        width: 100%;
     }
 }

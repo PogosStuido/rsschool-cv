@@ -117,10 +117,10 @@ li::marker {
         gap: 0.75rem;
     }
 
-    .small-card {
+    /* .small-card {
         width: 9.1456rem;
         height: 9.1456rem;
-    }
+    } */
 }
 
 @media screen and (min-width: 1920px) {
@@ -130,7 +130,7 @@ li::marker {
     }
 
     .small-card {
-        width: 10.0625rem;
-        height: 10.0625rem;
+        width: 7.36rem;
+        height: 7.36rem;
     }
 }
