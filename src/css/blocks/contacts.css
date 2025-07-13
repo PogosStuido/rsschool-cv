@@ -1,0 +1,46 @@
+.contacts {
+    padding-top: 3.75rem;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contacts__social-wrapper {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+
+}
+
+@media screen and (min-width: 768px) {
+    .contacts__social-wrapper {
+        gap: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contacts__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 13.44rem;
+
+    }
+
+    .contacts__social-wrapper {
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .contacts_wrapper {
+        gap: 15.12rem;
+    }
+
+    .contacts__social-wrapper {
+        width: 100%;
+    }
+}

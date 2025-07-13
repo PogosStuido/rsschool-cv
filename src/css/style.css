@@ -1,0 +1,12 @@
+@import url(/rsschool-cv/src/css/libs/modern-normalize.min.css);
+@import url(/rsschool-cv/src/css/base/basic.css);
+
+@import url(/rsschool-cv/src/css/ui/cards.css);
+@import url(/rsschool-cv/src/css/ui/buttons.css);
+
+@import url(/rsschool-cv/src/css/blocks/header.css);
+@import url(/rsschool-cv/src/css/blocks/promo.css);
+@import url(/rsschool-cv/src/css/blocks/path.css);
+@import url(/rsschool-cv/src/css/blocks/build.css);
+@import url(/rsschool-cv/src/css/blocks/contacts.css);
+@import url(/rsschool-cv/src/css/blocks/footer.css);
