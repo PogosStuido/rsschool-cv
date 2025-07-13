@@ -111,6 +111,7 @@ hr {
 @media screen and (min-width: 768px) {
     .promo__wrapper {
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .promo__header {
