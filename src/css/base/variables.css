@@ -3,4 +3,10 @@
     --text-color: #412D2B;
     --text-color-opacity: #412d2bd9;
     --second-color-white: #FFFFFF;
+
+    --visited-color: #a02f26;
+    --hover-color: #ff6655;
+    --active-color: #c52218;
+    --focus-color: #ff9988;
+
 }

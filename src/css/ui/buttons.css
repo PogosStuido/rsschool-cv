@@ -1,0 +1,15 @@
+.button__states:hover {
+    background: var(--text-color);
+}
+
+.button__states:hover {
+    background: var(--text-color);
+}
+
+.button__states:focus {
+    background: var(--focus-color);
+}
+
+.button__states:active {
+    background: var(--active-color);
+}

@@ -13,12 +13,29 @@
     display: none;
 }
 
+.header__nav-element {}
+
+
 .header__logo {
     font-size: 2rem;
     background: var(--main-gradient);
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.header__logo:hover {
+    color: var(--text-color);
+}
+
+.header__logo:focus {
+    color: var(--focus-color);
+}
+
+.header__logo:active {
+    color: var(--active-color);
 }
 
 .header__button {
@@ -62,7 +79,22 @@
         color: var(--text-color);
         font-size: 1.25rem;
         letter-spacing: 0.0625rem;
+
+        a:hover {
+            background: var(--hover-color);
+            background-clip: text;
+            color: transparent;
+        }
+
+        a:focus {
+            color: var(--focus-color);
+        }
+
+        a:active {
+            color: var(--active-color);
+        }
     }
+
 
     .header__button {
         display: block;
