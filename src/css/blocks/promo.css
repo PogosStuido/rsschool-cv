@@ -91,7 +91,20 @@ hr {
     gap: 0.5rem;
     justify-content: left;
     align-items: center;
+}
 
+.promo__email:hover {
+    background: var(--hover-color);
+    background-clip: text;
+    color: transparent;
+}
+
+.promo__email:focus {
+    color: var(--focus-color);
+}
+
+.promo__email:active {
+    color: var(--active-color);
 }
 
 .promo__email::before {

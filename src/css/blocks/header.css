@@ -13,9 +13,6 @@
     display: none;
 }
 
-.header__nav-element {}
-
-
 .header__logo {
     font-size: 2rem;
     background: var(--main-gradient);
