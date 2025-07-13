@@ -42,6 +42,7 @@ hr {
     margin-top: 0.75rem;
     color: var(--text-color);
     font-size: 1.25rem;
+    line-height: 175%;
 }
 
 .promo__card {
@@ -69,8 +70,6 @@ hr {
     font-family: Alegreya sans, sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
-
-
 }
 
 .promo__email {
@@ -112,6 +111,7 @@ hr {
     .promo__wrapper {
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-end;
     }
 
     .promo__header {
