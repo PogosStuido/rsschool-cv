@@ -13,3 +13,21 @@
 .button__states:active {
     background: var(--active-color);
 }
+
+.text__states:hover {
+    background: var(--hover-color);
+    background-clip: text;
+    color: transparent;
+}
+
+.text__states:focus {
+    color: var(--focus-color);
+}
+
+.text__states:active {
+    color: var(--active-color);
+}
+
+.text__states:visited {
+    color: var(--active-color);
+}
