@@ -39,6 +39,106 @@
     display: none;
 }
 
+.header__menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: -100vw;
+
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 50px 4rem;
+    gap: 2rem;
+
+    background: var(--main-gradient);
+    transition: all 0.3s;
+}
+
+.header__menu_active {
+    transform: translateX(100vw);
+}
+
+.header__menu-nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-left: 0;
+    /* margin-top: 50px; */
+
+    a {
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: var(--second-color-white);
+        text-decoration: none;
+
+    }
+}
+
+.header__menu-nav-element {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+.header__menu-nav-element:hover {
+    transform: scale(0.9);
+    color: var(--text-color)
+}
+
+.header__menu-nav-element:focus {
+    transform: scale(1.15);
+    color: var(--text-color)
+}
+
+.header__menu-nav-element:active {
+    transform: scale(1.1);
+}
+
+.header__menu-close {
+    display: block;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+.header__menu-close:hover {
+    transform: scale(0.95);
+}
+
+.header__menu-close:focus {
+    transform: scale(1.15);
+}
+
+.header__menu-close:active {
+    transform: scale(1.1);
+}
+
+.burger {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+.burger:hover {
+    transform: scale(0.9);
+}
+
+.burger:focus {
+    transform: scale(1.15);
+}
+
+.burger:active {
+    transform: scale(1.1);
+}
+
 .header__wrapper {
     display: flex;
     justify-content: space-between;
@@ -67,8 +167,6 @@
         justify-content: center;
         align-items: center;
         gap: 2rem;
-
-
     }
 
     .header__nav-element {
