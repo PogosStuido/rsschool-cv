@@ -4,11 +4,6 @@
     margin-top: 2.62rem;
 }
 
-.header__container {
-    width: 100%;
-    padding: 0 1rem
-}
-
 .header__nav {
     display: none;
 }
@@ -145,21 +140,9 @@
     align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-    .header__container {
-        max-width: 720px;
-        padding: 0;
-        margin: 0 auto;
-    }
-}
-
 @media screen and (min-width: 1440px) {
     .header {
         margin-top: 20px;
-    }
-
-    .header__container {
-        max-width: 77.5rem;
     }
 
     .header__nav {
@@ -203,11 +186,5 @@
 
     .burger {
         display: none;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-    .header__container {
-        max-width: 101.25rem;
     }
 }
