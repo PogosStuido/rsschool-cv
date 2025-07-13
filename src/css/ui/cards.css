@@ -1,0 +1,131 @@
+@import url(/rsschool-cv/src/css/base/variables.css);
+
+.card__title-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.card__subtitle {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    background: var(--main-gradient);
+    background-clip: text;
+    color: transparent;
+}
+
+.card__title-hr {
+    margin: 0;
+}
+
+.title_h2 {
+    color: var(--text-color);
+    font-size: 2rem;
+}
+
+.card__wrapper {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__header {
+    display: flex;
+    padding: 0.75rem 2rem;
+    border-radius: 1.25rem 1.25rem 0rem 0rem;
+    background: var(--main-gradient);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    color: var(--second-color-white);
+    font-size: 1.5rem;
+}
+
+.card__info {
+    padding: 0.75rem 2rem;
+    border-radius: 0rem 0rem 1.25rem 1.25rem;
+    background: var(--second-color-white);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-style: normal;
+}
+
+li::marker {
+    color: #EB1400;
+    font-size: 1.25rem;
+}
+
+.card__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+.card__info-wrapper {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.card__info-year {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.card__info-college {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: 5%;
+}
+
+.small-card {
+    display: flex;
+    width: 4.60938rem;
+    height: 4.60938rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25rem;
+    background: var(--main-gradient);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 768px) {
+    .small-card {
+        width: 6.45831rem;
+        height: 6.45831rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card__wrapper {
+        min-width: 28.9375rem;
+    }
+
+    .card__info {
+        min-height: 150px;
+    }
+
+    .card__title-wrapper_right {
+        display: flex;
+        align-items: flex-end;
+        gap: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .card__wrapper {
+        min-width: 32.4375rem;
+
+    }
+
+    .small-card {
+        width: 7.36rem;
+        height: 7.36rem;
+    }
+}

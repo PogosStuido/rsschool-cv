@@ -1,0 +1,25 @@
+@import url(/rsschool-cv/src/css/base/variables.css);
+
+.path {
+    padding-top: 3.75rem;
+}
+
+.path__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .path__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 13.44rem;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .path__wrapper {
+        gap: 15.12rem;
+    }
+}
