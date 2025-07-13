@@ -7,7 +7,7 @@
 ## Contacts
 
 * Location: Akhaltsikhe, Georgia
-* Phone: +995 598 777 350
+* Phone: +79039027598
 * Email: pogosstudio@gmail.com
 * GitHub: PogosStuido
 
