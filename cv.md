@@ -1,6 +1,6 @@
 # Pogos Torosian
 
-![Моя фотография](cv_photo.jpg)
+![Моя фотография](/rsschool-cv/src/image/cv_photo.jpg)
 
 ---
 

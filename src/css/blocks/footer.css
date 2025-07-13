@@ -20,6 +20,21 @@
     font-size: 1rem;
 }
 
+.footer__text:hover {
+    background: var(--text-color);
+    background-clip: text;
+    color: transparent;
+}
+
+.footer__text:focus {
+    color: var(--focus-color);
+}
+
+.footer__text:active {
+    color: var(--active-color);
+}
+
+
 .footer__logo {
     width: 9.56125rem;
 }
