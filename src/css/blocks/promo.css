@@ -81,7 +81,7 @@ hr {
 }
 
 .promo__address::before {
-    content: url(/src/icons/mapcursor.svg);
+    content: url("/src/icons/mapcursor.svg");
     margin-right: 0.5rem;
 
 }
@@ -108,7 +108,7 @@ hr {
 }
 
 .promo__email::before {
-    content: url(/src/icons/email_red.svg);
+    content: url("/src/icons/email_red.svg");
 }
 
 .promo__divider {
